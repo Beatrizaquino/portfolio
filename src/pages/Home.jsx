@@ -20,12 +20,27 @@ export const Home = () => {
       <Navbar />
       {/* Main Content */}
       <main>
-        <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ProjectsSection />
-        <ContactSection />
+        <section id="hero">
+          <HeroSection />
+        </section>
+
+        <section id="about">
+          <AboutSection />
+        </section>
+
+        <section id="skills">
+          <SkillsSection />
+        </section>
+
+        <section id="projects">
+          <ProjectsSection />
+        </section>
+
+        <section id="contact">
+          <ContactSection />
+        </section>
       </main>
+
 
       {/* Footer */}
       <Footer />
