@@ -1,6 +1,13 @@
 import { ArrowDown } from "lucide-react";
 
 export const HeroSection = () => {
+  const handleScrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       id="hero"
@@ -27,9 +34,12 @@ export const HeroSection = () => {
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
+            <button
+              onClick={() => handleScrollToSection("projects")}
+              className="cosmic-button"
+            >
               View My Work
-            </a>
+            </button>
           </div>
         </div>
       </div>
