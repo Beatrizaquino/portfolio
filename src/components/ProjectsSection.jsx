@@ -1,11 +1,15 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import biovein from "../../public/projects/biovein.png";
+import kanban from "../../public/projects/kanban.png";
+import social from "../../public/projects/image.png";
+
 
 const projects = [
   {
     id: 1,
     title: "SaaS Landing Page",
     description: "A beautiful landing page app using Wordpress.",
-    image: "/projects/biovein.png",
+    image: biovein,
     tags: ["JavaScript", "Wordpress", "Elementor"],
     demoUrl: "https://biovein.com.br/",
     githubUrl: "#",
@@ -15,7 +19,7 @@ const projects = [
     title: "Kanban Board",
     description:
       "Kanban board application with drag-and-drop functionality and real-time updates.",
-    image: "/projects/kanban.png",
+    image: kanban,
     tags: ["TypeScript", "Vue.js", "Tailwind CSS"],
     demoUrl: "#",
     githubUrl: "#",
@@ -25,7 +29,7 @@ const projects = [
     title: "Social Media App",
     description:
       "A social media application with real-time chat and media sharing features.",
-    image: "/projects/image.png",
+    image: social,
     tags: ["javaScript", "Tailwind CSS", "Stripe"],
     demoUrl: "https://beatrizaquino.github.io/socialMidia/",
     githubUrl: "https://github.com/Beatrizaquino/socialMidia",
